@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Lord of Simplon</title>
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <video autoplay loop muted poster="image_de_fallback.jpg" id="bgvid">
+      <source src="img/stockvideo_02671k.mp4" type="video/mp4" />
+      <source src="img/stockvideo_02671k.mp4" type="video/" />
+    </video>
+
+    <h1>Lord of Simplon</h1>
+
+    <div class="container">
+      <div class="left-container">
+        <div class="cardJoueur1">
+          <img src="img/Paladin.png" alt="log du paladin" />
+          <span>
+            <h4><b>Joueur 1</b></h4>
+            <h5>Paladin</h5>
+          </span>
+          <p>46</p>
+          <p>pts</p>
+        </div>
+        <div class="malusJoueur1">
+          <p><b>Sortilége reçu : Mal de mer (-5)</b></p>
+          <p>Actif pendant encore 2 tours</p>
+        </div>
+        <div class="historyPlayer1">
+          <ul>
+            <li>
+              <span>Type attaque</span><br> <span>Nom attaque</span>
+              <span>-15pts</span>
+            </li>
+            <li>
+              <span>Type sort</span> <br><span>Nom sort</span> <span>-5pts</span>
+            </li>
+            <li>
+              <span>Type sort</span><br> <span>Nom sort</span> <span>-15pts</span>
+            </li>
+            <li>
+              <span>Type attaque</span><br> <span>Nom attaque</span>
+              <span>+20pts</span>
+            </li>
+            <li>
+              <span>Type sort</span><br> <span>Nom sort</span> <span>-10pts</span>
+            </li>
+            <li>
+              <span>Type sort</span><br> <span>Nom sort</span> <span>-10pts</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="vs">VS</div>
+
+
+      <div class="right-container">
+        <div class="cardJoueur2">
+          <img src="img/Shifumy.png" alt="log du shifumy" />
+          <span>
+            <h4><b>Joueur 2</b></h4>
+            <h5>Shyfumi</h5>
+          </span>
+          <p>0</p>
+          <p>pts</p>
+        </div>
+        <div class="malusJoueur2">
+          <p class="malusOff">Aucun Sortilége</p>
+        </div>
+        <div class="historyPlayer2">
+          <ul>
+            <li>
+              <span>Type attaque</span> <span>Nom attaque</span>
+              <span>-10pts</span>
+            </li>
+            <li>
+              <span>Type sort</span> <br> <span>Nom sort</span> <span>-5pts</span>
+            </li>
+            <li>
+              <span>Type sort</span><br> <span>Nom sort</span> <span>-15pts</span>
+            </li>
+            <li>
+              <span>Type attaque</span><br> <span>Nom attaque</span>
+              <span>+20pts</span>
+            </li>
+            <li>
+              <span>Type sort</span><br> <span>Nom sort</span> <span>-10pts</span>
+            </li>
+            <li>
+              <span>Type sort</span><br> <span>Nom sort</span> <span>-10pts</span>
+            </li>
+            <li>
+              <span>Type sort</span><br> <span>Nom sort</span> <span>-10pts</span>
+            </li>
+          </ul>
+        </div>
+        <div class="buttons">
+          <h3>A votre tour de jouer !</h3>
+          <h3>Choisissez le coup à donnez :</h3>
+          <div class="attaque">
+            <button>Coup 1</button>
+            <button>Coup 2</button>
+            <button>Coup 3</button>
+          </div>
+          <h3>Choisissez le sort à lancer :</h3>
+          <div class="sortilege">
+            <button>Sort 1</button>
+            <button>Sort 2</button>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </body>
+</html>
